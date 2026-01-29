@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^5.7.0",
+    "@prisma/adapter-pg": "^7.3.0",
+    "pg": "^8.17.2",
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prisma": "^5.7.0"
+  }
+}
